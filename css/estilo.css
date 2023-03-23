@@ -1,0 +1,99 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxheader { 
+    background-color: #FA3C0A ;
+    border: 2px solid blue;
+    width: 100%;
+    height: auto;   
+    margin-bottom: 20px;
+} 
+
+.Nombre { 
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+ } 
+ 
+ nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    } 
+    
+ul{ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    } 
+
+li{ 
+    list-style: none;
+    margin: 0 1rem;
+   padding: 1rem 0 ;
+    } 
+    
+
+ .boxmain { 
+    background-color:#DE5409  ;
+    border: 2px solid rgb(7, 7, 82); 
+    padding: 20px;
+    display:flex;
+    flex-direction: column;  
+    min-height: 100vh;
+} 
+
+footer { 
+    background-color: #F57C02;
+    border: 2px solid rgb(77, 77, 121);   
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto;     
+} 
+.buttons{ 
+   min-width: 700px;
+    display: flex;   
+    justify-content: space-around;
+
+} 
+.buttons a { 
+        text-decoration: none;
+        font-size: 20px;
+        width: 60px;
+        height: 6opx;
+        line-height: 60px;
+        text-align: center;
+        background: dimgray;
+        color: wheat;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgb(14, 13, 13);
+        transition: all .4s ease-in-out;
+} 
+.buttons a:hover{ 
+      transition: scale (1.2) ;
+
+} 
+/*
+.cajaformulario{
+    background-color: rgb(181, 207, 207) ;
+    border: 3px solid rgb(37, 37, 82);
+    width: 30%;
+    height: auto;   
+    padding: 10px 40px 10px 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.margen{ 
+   margin-left: 90px;
+} /*
+
+
+              
+              
