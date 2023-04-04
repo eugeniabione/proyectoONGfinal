@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de adopción</title>
     <link rel="stylesheet" href="./css/estilo.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -24,74 +25,93 @@
         </div>
         </ul>
         <div class="logo"> 
-          <img  src="img/Logo ong.png" width="150" height="150"
+          <img  src="img/Logo ong.png" width="130" height="130"
         alt="Logo ONG Mundo Patitas">
       </div>
       </nav>
       </div>
       </header>
-    <main>
+    <main> 
+        <div class="contenedorv"> 
+        <div class="boxmainv" >
         <h3> Guia antes de adoptar</h3> <br>
-        <p> <b>Etapas de la vida:</b> Etapas de la vida: para un perro que está esperando su hogar definitivo, siempre es una buena noticia que lo adopten. No hay que decepcionarlo llevándolo al nuevo hogar sin haberlo decidido adecuadamente. Los perros demandan cuidados y atención, y eso se traduce en tiempo, especialmente cuando recién acaba de mudarse.</p><br>
+        <p> <b><u></text-size> Etapas de la vida </u> :</b> Etapas de la vida: para un perro que está esperando su hogar definitivo, siempre es una buena noticia que lo adopten. No hay que decepcionarlo llevándolo al nuevo hogar sin haberlo decidido adecuadamente. Los perros demandan cuidados y atención, y eso se traduce en tiempo, especialmente cuando recién acaba de mudarse.</p><br>
         <p> <b> Un compromiso económico continuo:</b>  Porque realmente se convierte en un nuevo gasto familiar. Además del alimento y los premios, están los juguetes, la cama y sus sábanas, el veterinario, los costos de baño y peluquería.
         </p> <br>
         <p> <b> Ubicación: </b>  Es un mito el no poder alojar un perro mediano o grande en un departamento, si las reglas del departamento lo permiten. No importan los tamaños, lo que debe importar más es si tiene la oportunidad de darle diariamente a la mascota la cantidad de ejercicio que requiere para estar sano y feliz.         
         </p> <br>
-   <h4>Candidato para adopción</h4> <br> <br>
-   <h5>Datos personales</h5>
-        <form >
+    </div>
+    
+    
+    <aside> 
+        <div class="boxasidev" >
         <div class="cajaformulario">
-Apellido y Nombre:  <input type="text" size="35">
-<br> <br>
-Direccion: <input type="text" size="20" maxlength="30">
-<br> <br>
-Ocupacion:  <input type="text" size="35">
-<br> <br>
-Correo electronico: <input type="text" size="4" maxlength="3">
-<br> <br>
-Edad: <input type="text" size="4" maxlength="3">
-<br> <br>
-Telefono fijo: <input type="text" size="10">
-<br> <br>
-telefono celular: <input type="text" size="10" maxlength="15">
-<br> <br>
-
-<h5> Preguntas generales</h5>
-<br> <br>
-
-
-<b>  ¿Están todos los miembros de la familia de acuerdo en adoptar?</b> 
-<br><br>
-<br>
-<textarea cols="30" rows="10">
-    </textarea> 
-    <br> <br>
-<br>
-<b>  ¿Qué animal quieres adoptar?</b> 
-<br><br>
-Perro <input type="radio" name="perro"> <br>
-Gato <input type="radio" name="perro"> 
-<br>
-<b>  ¿Edad del animal por adoptar?</b> 
-<br><br>
-Cachorro <input type="radio" name="joven"> <br>
-Joven <input type="radio" name="joven"> 
-<br>
-Adolto <input type="radio" name="joven"> 
-<br>
-<b> El animal que busca es para: </b> 
-<br><br>
-Compañía <input type="radio" name="compa"> <br>
-Guardia <input type="radio" name="compa"> 
-<br>
-Trabajo <input type="radio" name="compa"> 
-<br>
-<br>
-
-   <input type="submit" value=" Enviar">
-    <input type="reset" value=" Restablecer">
+         <h4>Candidato para adopción</h4> 
+   <h5>Datos personales</h5>
+   
+    <form class="row g-3 mt-3" >
+        <div class="col-4 g-3 mt-3" >
+            <label for="Nombre" class="form-label">Nombre:</label>   
+            <input type="text" class="form-control" id="imput-name" placeholder="Escribe tu nombre" >
         </div>
-    </form>
+        <div class="col-4 g-3 mt-3">
+            <label for="Apellido" class="form-label">Apellido:</label>   
+            <input type="text" class="form-control" id="imput-surname" placeholder="Escribe tu apellido" >
+        </div>
+        <div class="col-4 g-3 mt-3">
+            <label for="Direccion" class="form-label">Dirección:</label>   
+            <input type="text" class="form-control" id="imput-address" placeholder="Escribe tu dirección" >
+        </div>
+        <div class="col-4 g-3 mt-3">
+            <label for="Ocupación" class="form-label">Ocupación:</label>   
+            <input type="text" class="form-control" id="imput-job" placeholder="Escribe tu ocupación" >
+        </div>
+
+        <div class="col-4  g-3 mt-3">
+            <label for="Correo electronico:" class="form-label">Correo electronico:</label>   
+            <input type="text" class="form-control" id="imput-email" placeholder="Escribe tu Correo electronico" >
+        </div>
+        <div class="col-2 g-3 mt-3">
+            <label for="Edad" class="form-label">Edad:</label>   
+            <input type="text" class="form-control" id="imput-age" placeholder="Edad" >
+        </div>
+        <div class="col-3 g-3 mt-3">
+            <label for="Telefono fijo" class="form-label">Telefono fijo:</label>   
+            <input type="text" class="form-control" id="imput-phone" placeholder="Escribe tu telefono fijo" >
+        </div>
+        <div class="col-3 g-3 mt-3">
+            <label for="telefono celular" class="form-label"> Telefono celular:</label>   
+            <input type="text" class="form-control" id="imput-cellphone" placeholder="Escribe tu celular:" >
+        </div>
+
+<h5> Preguntas generales</h5> 
+<br>
+<label for="tipo animal" class="form-label"> ¿Qué animal quieres adoptar?</label>
+<select class="form-select" aria-label="Default select example">
+  <option selected >Elija una opción</option>
+  <option value="1">Perro</option>
+  <option value="2">Gato</option>
+</select> 
+<br>
+<label for="acuerdo familia" class="form-label"> ¿Edad del animal por adoptar?</label>
+<select class="form-select" aria-label="Default select example">
+<option selected >Elija una opción</option>
+<option value="1">Cachorro</option>
+<option value="2">Joven</option>
+<option value="3">Adulto</option>
+</select>
+<br>
+<div class="col-12 mb-3">
+    <button type="submit" class="btn btn-primary"> Enviar</button>
+</div>
+</div>
+   </form>
+</div>
+<script src="./js/java.js"></script>
+</div>
+</div>
+</aside>
 </main>
+
 </body>
 </html>
